@@ -1,6 +1,6 @@
 # Expressive Essentials Skeleton App Manual Build
 
-This repository shows the manual version of the Zend Expressive application, that’s developed in Zend Expressive Essentials.
+This repository shows the manual version of the Zend Expressive application, that's developed in Zend Expressive Essentials.
 
 ## Prerequisites
 
@@ -20,9 +20,9 @@ git clone git@github.com:zfmastery/expressive-essentials-skeleton-app-manual-bui
 ## Running the Application
 
 Running the application, currently, requires Docker.
-If you’ve never used Docker before, [you need to install it](https://docs.docker.com/engine/installation/#supported-platforms).
-The Docker website has plenty of instructions about doing so, no matter if you’re on *Windows*, *macOS*, or *Linux*.
-After you’ve installed Docker, from the terminal, in the top-level directory of the cloned source, run the following command:
+If you've never used Docker before, [you need to install it](https://docs.docker.com/engine/installation/#supported-platforms).
+The Docker website has plenty of instructions about doing so, no matter if you're on *Windows*, *macOS*, or *Linux*.
+After you've installed Docker, from the terminal, in the top-level directory of the cloned source, run the following command:
 
 ```console
 docker-compose up -d --build
@@ -30,7 +30,6 @@ docker-compose up -d --build
 
 The first time that the command runs takes a few minutes, depending on your internet connection speed, as the Docker images need to download before they can start.
 Anytime after that, the build happens very quickly.
-
 Either way, you should see output similar to the following:
 
 ```console
@@ -59,10 +58,8 @@ iterationthree_nginx_1   nginx -g daemon off;            Up      443/tcp, 0.0.0.
 iterationthree_php_1     docker-php-entrypoint php-fpm   Up      9000/tcp
 ```
 
-In the “State” column, you can see that both containers are marked as “Up”, meaning that they’re both running.
-
-In the “Ports” column, you can see that the NGINX container is available on the local machine on port 8080.
-
+In the "State" column, you can see that both containers are marked as "Up", meaning that they're both running.
+In the "Ports" column, you can see that the NGINX container is available on the local machine on port 8080.
 If you now open `http://localhost:8080` in your web browser of choice, it should look similar to the image below.
 
 ![The default route of the application](./docs/images/screenshots/default-route.png)
@@ -76,7 +73,7 @@ If you want to know more about Docker, here are some excellent resources:
 ## Found a Bug?
 
 If you find a bug in the code, please [create a new issue](https://github.com/zfmastery/expressive-essentials-skeleton-app-manual-build/issues/new), describing what the problem is, and how you discovered it.
-I’ll do my best to respond to it, as well as to correct it, as quickly as possible.
+I'll do my best to respond to it, as well as to correct it, as quickly as possible.
 
 ## Authors
 
