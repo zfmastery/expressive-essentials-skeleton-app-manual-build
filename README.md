@@ -58,8 +58,8 @@ iterationthree_nginx_1   nginx -g daemon off;            Up      443/tcp, 0.0.0.
 iterationthree_php_1     docker-php-entrypoint php-fpm   Up      9000/tcp
 ```
 
-In the "State" column, you can see that both containers are marked as "Up", meaning that they're both running.
-In the "Ports" column, you can see that the NGINX container is available on the local machine on port 8080.
+In the "**State**" column, you can see that both containers are marked as "**Up**", meaning that they're both running.
+In the "**Ports**" column, you can see that the NGINX container is available on the local machine on port 8080.
 If you now open `http://localhost:8080` in your web browser of choice, it should look similar to the image below.
 
 ![The default route of the application](./docs/images/screenshots/default-route.png)
